@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bootstrap-4.0.0/dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+        <!--section 1-->
+        <div id="cl-1">
+            <h1>Digital Calculator</h1>
+        </div>
+        <!--section 2-->
+      
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-5" id="calculator">
+                    <input type="text" placeholder="0" id="cl-2"><br>
+                    <button onclick="clrdisp()" id="cl-2-1">DEL</button><br>
+                    <button onclick="onClickHandler(7)" id="cl-3">7</button>
+                    <button onclick="onClickHandler(8)" id="cl-4">8</button>
+                    <button onclick="onClickHandler(9)" id="cl-4">9</button>
+                    <button onclick="onClickHandler('/')" id="cl-5">/</button><br>
+                    <button onclick="onClickHandler(4)" id="cl-3">4</button>
+                    <button onclick="onClickHandler(5)" id="cl-4">5</button>
+                    <button onclick="onClickHandler(6)" id="cl-4">6</button>
+                    <button onclick="onClickHandler('*')" id="cl-5">x</button><br>
+                    <button onclick="onClickHandler(1)" id="cl-3">1</button>
+                    <button onclick="onClickHandler(2)" id="cl-4">2</button>
+                    <button onclick="onClickHandler(3)" id="cl-4">3</button>
+                    <button onclick="onClickHandler('-')" id="cl-5">-</button><br>
+                    <button onclick="onClickHandler('.')" id="cl-3">.</button>
+                    <button onclick="onClickHandler(0)" id="cl-4">0</button>
+                    <button onclick="eql('=')" id="cl-4">=</button>
+                    <button onclick="onClickHandler('+')" id="cl-5">+</button><br>
+
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

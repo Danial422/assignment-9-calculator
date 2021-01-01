@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(#020024,#d60587,#00d4ff);
+}
+#calculator{
+    background: linear-gradient(#d60587,#ff0034,#020024);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 60px;
+    margin-left: 50px;
+    border: solid;
+    border-color: yellow;
+}
+/*section 1*/
+#cl-1{
+    background-color: hotpink;
+    text-align: center;
+    color: indigo;
+    font-size: larger;
+    border-radius: 100px;
+    margin-top: 30px;
+    border-radius: 80px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 50px;
+}
+#cl-1:hover{
+    background-color: indigo;
+    color: hotpink;
+    width: 500px;
+    margin-left: 450px;
+
+}
+/*sect-2*/
+#cl-2{
+    width: 300px;
+    margin-top: 50px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: rgb(56, 16, 16);
+    color: cornsilk;
+    border-color: rgb(233, 24, 58);
+    margin-left: 70px;  
+    padding-top: 10px;
+    border: solid;
+    border-color: yellow;
+}
+#cl-2-1{
+    width: 90px;
+    font-size: 30px;
+    border-radius: 300px;
+    background-color: rgb(22, 46, 23);
+    color: rgb(143, 45, 212);
+    margin-left: 70px;
+    margin-top: 30px;
+    border: solid;
+    border-color: rgb(124, 49, 105);
+}
+#cl-2-1:hover{
+    background-color: rgb(44, 23, 28);
+    color:  rgb(241, 21, 131);
+}
+#cl-3{
+    width: 50px;
+    font-size: 30px;
+    border-radius: 400px;
+    background-color: rgb(119, 5, 62);
+    color: rgb(215, 169, 248);
+    border-color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-color: rgb(228, 167, 177);
+    border: solid;
+    border-color: rgb(59, 29, 29);
+}
+#cl-3:hover{
+    background-color: crimson;
+    color:  rgb(119, 5, 62);
+}
+#cl-4{
+    width: 50px;
+    font-size: 30px;
+    border-radius: 400px;
+    background-color: rgb(119, 5, 62);
+    color: rgb(215, 169, 248);
+    border-color: white;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-color: rgb(241, 148, 163);
+    border: solid;
+    border-color: rgb(59, 29, 29);
+}
+#cl-4:hover{
+    background-color: crimson;
+    color:  rgb(119, 5, 62);
+}
+#cl-5{
+    width: 90px;
+    font-size: 30px;
+    border-radius: 300px;
+    background-color: rgb(119, 5, 62);
+    color: rgb(215, 169, 248);
+    border-color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-color: rgb(231, 144, 158);
+    border: solid;
+    border-color: rgb(26, 177, 236);
+}
+#cl-5:hover{
+    background-color: rgb(70, 5, 18);
+    color:  rgb(241, 21, 131);
+}
