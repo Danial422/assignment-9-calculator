@@ -1,14 +1,45 @@
 body{
     background: linear-gradient(#020024,#d60587,#00d4ff);
 }
+
 #calculator{
     background: linear-gradient(#d60587,#ff0034,#020024);
     padding-bottom: 30px;
     padding-top: 20px;
-    border-radius: 60px;
-    margin-left: 50px;
+    border-radius: 40px;
+    margin-left: 40px;
     border: solid;
     border-color: yellow;
+}
+/*responsiveness for mobile */
+@media screen and (max-width: 500px){
+    body{
+        background: linear-gradient(#020024,#d60587,#00d4ff);
+    }
+    #calculator{
+        background: linear-gradient(#d60587,#ff0034,#020024);
+        padding-bottom: 30px;
+        padding-top: 20px;
+        border-radius: 40px;
+        margin-left: 0px;
+        border: solid;
+        border-color: yellow;
+    }
+}
+/*responsiveness for tablets */
+@media screen and (max-width: 800px) and (min-width: 600px){
+    body{
+        background: linear-gradient(#020024,#d60587,#00d4ff);
+    }
+    #calculator{
+        background: linear-gradient(#d60587,#ff0034,#020024);
+        padding-bottom: 30px;
+        padding-top: 20px;
+        border-radius: 40px;
+        margin-left: 0px;
+        border: solid;
+        border-color: yellow;
+    }
 }
 /*section 1*/
 #cl-1{
@@ -23,6 +54,7 @@ body{
     padding-top: 3px;
     margin-bottom: 50px;
 }
+
 #cl-1:hover{
     background-color: indigo;
     color: hotpink;
@@ -30,6 +62,36 @@ body{
     margin-left: 450px;
 
 }
+/* mobile responsive*/
+@media screen and (max-width: 500px ){
+    #cl-1{
+        background-color: hotpink;
+        text-align: center;
+        color: indigo;
+        font-size: 20px;
+        border-radius: 100px;
+        margin-top: 30px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        margin-bottom: 50px;
+    }
+    
+}
+@media screen and (max-width: 800px) and (min-width: 600px){
+    #cl-1{
+        background-color: hotpink;
+        text-align: center;
+        color: indigo;
+        font-size: 30px;
+        border-radius: 100px;
+        margin-top: 30px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        margin-bottom: 50px;
+    }
+    
+}
+
 /*sect-2*/
 #cl-2{
     width: 300px;
@@ -39,22 +101,24 @@ body{
     background-color: rgb(56, 16, 16);
     color: cornsilk;
     border-color: rgb(233, 24, 58);
-    margin-left: 70px;  
+    margin-left: 25px;  
     padding-top: 10px;
     border: solid;
     border-color: yellow;
 }
+
 #cl-2-1{
     width: 90px;
     font-size: 30px;
     border-radius: 300px;
     background-color: rgb(22, 46, 23);
     color: rgb(143, 45, 212);
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 30px;
     border: solid;
     border-color: rgb(124, 49, 105);
 }
+
 #cl-2-1:hover{
     background-color: rgb(44, 23, 28);
     color:  rgb(241, 21, 131);
@@ -66,16 +130,18 @@ body{
     background-color: rgb(119, 5, 62);
     color: rgb(215, 169, 248);
     border-color: white;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 40px;
     border-color: rgb(228, 167, 177);
     border: solid;
     border-color: rgb(59, 29, 29);
 }
+
 #cl-3:hover{
     background-color: crimson;
     color:  rgb(119, 5, 62);
 }
+
 #cl-4{
     width: 50px;
     font-size: 30px;
@@ -89,10 +155,12 @@ body{
     border: solid;
     border-color: rgb(59, 29, 29);
 }
+
 #cl-4:hover{
     background-color: crimson;
     color:  rgb(119, 5, 62);
 }
+
 #cl-5{
     width: 90px;
     font-size: 30px;
@@ -106,7 +174,77 @@ body{
     border: solid;
     border-color: rgb(26, 177, 236);
 }
+
 #cl-5:hover{
     background-color: rgb(70, 5, 18);
     color:  rgb(241, 21, 131);
+}
+/* mobile responsive*/
+@media screen and (max-width: 500px)and (min-width: 200px){
+    #cl-2{
+        width: 300px;
+        font-size: 30px;
+        border-radius: 30px;
+        background-color: rgb(56, 16, 16);
+        color: cornsilk;
+        border-color: rgb(233, 24, 58);
+        margin-left: 20px;  
+        padding-top: 10px;
+        border: solid;
+        border-color: yellow;
+    }
+}
+/*tablet*/
+@media screen and (max-width: 800px) and (min-width: 600px){
+    #cl-2{
+        width: 400px;
+        font-size: 30px;
+        border-radius: 30px;
+        background-color: rgb(56, 16, 16);
+        color: cornsilk;
+        border-color: rgb(233, 24, 58);
+        margin-left: 50px;  
+        padding-top: 10px;
+        border: solid;
+        border-color: yellow;
+    }
+    #cl-2-1{
+        width: 90px;
+        font-size: 30px;
+        border-radius: 300px;
+        background-color: rgb(22, 46, 23);
+        color: rgb(143, 45, 212);
+        margin-left: 50px;
+        margin-top: 30px;
+        border: solid;
+        border-color: rgb(124, 49, 105);
+    }
+    #cl-3{
+        width: 70px;
+        font-size: 30px;
+        border-radius: 400px;
+        background-color: rgb(119, 5, 62);
+        color: rgb(215, 169, 248);
+        border-color: white;
+        margin-left: 70px;
+        margin-top: 40px;
+        border-color: rgb(228, 167, 177);
+        border: solid;
+        border-color: rgb(59, 29, 29);
+    }
+    #cl-4{
+        width: 70px;
+        font-size: 30px;
+        border-radius: 400px;
+        background-color: rgb(119, 5, 62);
+        color: rgb(215, 169, 248);
+        border-color: white;
+        margin-left: 10px;
+        margin-top: 40px;
+        border-color: rgb(241, 148, 163);
+        border: solid;
+        border-color: rgb(59, 29, 29);
+    }
+    
+
 }
